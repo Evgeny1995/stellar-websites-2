@@ -1,0 +1,489 @@
+.header-row-bottom {
+    margin: 155px 0 0 0;
+  }
+  
+  .header-preview {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .header-preview::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/main-background-Illustration.png) no-repeat
+      center center;
+    width: 638px;
+    height: 362px;
+    top: 1px;
+    right: 1px;
+  }
+  
+  .header-preview-title {
+    margin: 0;
+    padding: 0;
+    width: 37%;
+    font-family: Poppins;
+    font-size: 54px;
+    line-height: 74px;
+    font-style: normal;
+  }
+  
+  .header-preview-text {
+    margin: 31px 0 51px 0;
+    padding: 0;
+    width: 39%;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+  }
+  
+  .preview-our-work {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1b1c2b;
+    text-decoration: none;
+    background-color: #fcd980;
+    padding: 19.5px 53px 19.5px 53px;
+    border-radius: 41px;
+    margin: 0 38px 0 0;
+    
+  }
+  
+  .preview-our-work:hover {
+    background-color: #fde4a6;
+    color: #ffffff;
+  }
+  
+  .preview-pricing {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+  
+    text-shadow: 0px 0px 20px #000000;
+  }
+  
+  .preview-pricing::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-white.svg) no-repeat;
+    width: 24px;
+    height: 12px;
+    top: 8px;
+    left: 121px;
+  }
+  
+  .preview-pricing:hover {
+    color: #fde4a6;
+  }
+  
+  .preview-pricing:hover.preview-pricing::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-yellow.svg) no-repeat;
+    width: 24px;
+    height: 12px;
+    top: 8px;
+    left: 121px;
+  }
+  
+  .main-page {
+    margin: 0;
+    padding: 1px 0 0 0;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .main-work-process-wrap {
+    background-color: #f4f6fc;
+  }
+  
+  .main-work-process {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    width: 1280px;
+    min-height: 660px;
+    display: flex;
+  }
+  
+  .work-process {
+    margin: 110px 0 0 0;
+    padding: 0;
+    width: 330px;
+  }
+  
+  .work-process-title {
+    font-family: Poppins;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    margin: 0;
+  }
+  
+  .work-process-text {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #282938;
+    margin: 25px 0;
+  }
+  
+  .work-process-link {
+    text-decoration: none;
+    color: #2405f2;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: normal;
+    position: relative;
+  }
+  
+  .work-process-link:hover {
+    color: #fcd980;
+  }
+  
+  .work-process-link::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-blue.svg) no-repeat center center;
+    width: 24px;
+    height: 12px;
+    top: 8px;
+    left: 189px;
+  }
+  
+  .work-process-link:hover.work-process-link::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-yellow.svg) no-repeat center center;
+    width: 24px;
+    height: 12px;
+    top: 8px;
+    left: 189px;
+  }
+  
+  .work-process-description {
+    margin: 0 0 0 223px;
+    box-sizing: border-box;
+  }
+  
+  .work-process-list {
+    margin: 145px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 687px;
+    list-style: none;
+  }
+  .process-list-items {
+    width: 286px;
+    margin: 0 0 55px 0;
+  }
+  
+  .process-list-items:nth-child(1) {
+    position: relative;
+  }
+  
+  .process-list-items:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/picture-number/number-1.png) no-repeat;
+    top: -40px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .process-list-items:nth-child(2) {
+    position: relative;
+  }
+  
+  .process-list-items:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/picture-number/number-2.png) no-repeat;
+    top: -40px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .process-list-items:nth-child(3) {
+    position: relative;
+  }
+  
+  .process-list-items:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/picture-number/number-3.png) no-repeat;
+    top: -40px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .process-list-items:nth-child(4) {
+    position: relative;
+  }
+  
+  .process-list-items:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/picture-number/number-4.png) no-repeat;
+    top: -40px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .process-list-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+  }
+  .process-list-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+  }
+  
+  .main-projects {
+    background: #ffffff;
+    min-height: 984px;
+    margin: 0 auto;
+    width: 1280px;
+  }
+  
+  .main-projects-row-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 135px 0 0 0;
+  }
+  
+  .main-projects-title {
+    width: 467px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-projects-link {
+    margin: 28px 40px 0 0;
+    padding: 0;
+    text-decoration: none;
+    color: #282938;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+  }
+  
+  .main-projects-link::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-black.svg) no-repeat;
+    top: 7px;
+    left: 97px;
+    width: 24px;
+    height: 13px;
+  }
+  
+  .main-projects-link:hover.main-projects-link::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-yellow.svg) no-repeat;
+    top: 7px;
+    left: 97px;
+    width: 24px;
+    height: 13px;
+  }
+  
+  .main-projects-link:hover {
+    color: #fde4a6;
+  }
+  
+  .main-projects-row-bottom {
+    padding: 0;
+    margin: 78px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-projects-office {
+    width: 843px;
+    height: 600px;
+    background: url(/source/picture/project-card-1.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .main-projects-office-overlay {
+    padding: 310px 0 0 50px;
+    width: 41.1%;
+    height: 290px;
+    background: linear-gradient(
+      329.39deg,
+      #1c1e53 -10.96%,
+      rgba(28, 30, 83, 0.42) 103.96%
+    );
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .projects-office-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 0 0 0 0;
+  }
+  
+  .projects-office-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 15px 0 43px 0;
+  }
+  
+  .projects-office-links {
+    text-decoration: none;
+    color: #fcd980;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    position: relative;
+  }
+  
+  .projects-office-links::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-yellow.svg) no-repeat;
+    width: 24px;
+    height: 13px;
+    top: 5px;
+    left: 114px;
+  }
+  
+  .projects-office-links:hover {
+    color: #ffffff;
+  }
+  
+  .projects-office-links:hover.projects-office-links::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-white.svg) no-repeat;
+    width: 24px;
+    height: 13px;
+    top: 5px;
+    left: 114px;
+  }
+  
+  .main-projects-design {
+    display: flex;
+    flex-direction: column;
+    width: 414px;
+  }
+  
+  .main-projects-unisaas {
+    margin: 0 auto;
+    padding: 0;
+    width: 414px;
+    height: 284px;
+    background: url(/source/picture/project-card-2.png) no-repeat;
+    background-size: 432px 284px;
+    background-position: center center;
+  }
+  
+  .main-projects-unisaas-overlay {
+    width: 86%;
+    height: 54.6%;
+    background: linear-gradient(
+      329.39deg,
+      #1c1e53 -10.96%,
+      rgba(28, 30, 83, 0.42) 103.96%
+    );
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 129px 0 0 61px;
+  }
+  
+  .projects-unisaas-title {
+    width: 70%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 0 0 11px 0;
+  }
+  
+  .projects-unisaas-links {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fcd980;
+    position: relative;
+  }
+  
+  .projects-unisaas-links::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-yellow.svg) no-repeat;
+    width: 24px;
+    height: 13px;
+    top: 5px;
+    left: 122px;
+  }
+  
+  .projects-unisaas-links:hover {
+    color: #ffffff;
+  }
+  
+  .projects-unisaas-links:hover.projects-unisaas-links::before {
+    content: "";
+    position: absolute;
+    background: url(/source/picture/Arrow-white.svg) no-repeat;
+    width: 24px;
+    height: 13px;
+    top: 5px;
+    left: 122px;
+  }
+  
+  .main-projects-example {
+    margin: 32px auto 0 auto;
+    width: 405px;
+    height: 284px;
+    background: url(/source/picture/project-card-3.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
